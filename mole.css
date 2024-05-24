@@ -1,0 +1,29 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background: url("./mario-bg.jpg");
+    background-size: cover;
+}
+
+#board{
+    width: 810px;
+    height: 810px;
+    background-color: green;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url("soil.png");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#board div {
+
+    width: 270px;
+    height: 270px;
+    background-image: url("pipe.png");
+    background-size: cover;
+}
