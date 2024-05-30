@@ -15,6 +15,8 @@ function setGame()
         tile.id = i.toString();
         document.getElementById("board").appendChild(tile);
     }
+
+    setInterval(setMole, 2000);
 }
 
 function getRandomTile()
@@ -30,5 +32,5 @@ function setMole()
 
     let num = getRandomTile();
     currMoleTile = document.getElementById(num);
-    currMo
+    currMoleTile.appendChild(mole);
 }
